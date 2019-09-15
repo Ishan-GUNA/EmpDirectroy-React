@@ -1,0 +1,71 @@
+.grid-container {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid black;
+}
+
+.bar {
+  margin: 0 auto;
+  margin-top: 0;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.bar form {
+  margin-left: 0 auto;
+  width: 20px;
+  font-size: 17px;
+  padding: 8px;
+  border: none;
+  font-size: 17px;
+}
+
+.home-page {
+  border: 1px solid black;
+  width: 80%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.employee-page {
+  border: 1px solid black;
+  width: 260px;
+  padding: 30px;
+  margin: 10px;
+  height: 510px;
+}
+
+.emp-directory {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.emp-list {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.list-item li {
+  border: 1px solid black;
+  list-style: none;
+  padding: 15px;
+  margin-left: -40px;
+}
+
+.head-new {
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: -10px;
+}
+
+.headn li {
+  list-style: none;
+  padding: 10px;
+}
+
+.headn h4 {
+  font-size: 20px;
+}
