@@ -1,16 +1,21 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .grid-container {
   display: flex;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   align-items: center;
   justify-content: space-between;
-  border: 3px solid black;
+  border: 5px solid black;
+  height: 50%;
 }
 
 .bar {
   margin: 0 auto;
   margin-top: 0;
-  border: 1px solid black;
+  border: 3px solid blue;
   padding: 5px;
 }
 
@@ -24,39 +29,40 @@
 }
 
 .home-page {
-  border: 1px solid black;
+  border: 3px solid rgb(206, 3, 162);
   width: 80%;
   padding: 20px;
   margin: 20px;
 }
 
 .employee-page {
-  border: 1px solid black;
-  width: 260px;
+  border: 3px solid rgb(206, 3, 162);
+  width: 400px;
   padding: 30px;
   margin: 10px;
-  height: 510px;
+  height: 630px;
 }
 
 .emp-directory {
-  border: 1px solid black;
+  border: 3px solid rgb(10, 221, 55);
   padding: 10px;
 }
 
 .emp-list {
-  border: 1px solid black;
+  border: 3px solid rgb(6, 87, 124);
   padding: 20px;
 }
 
 .list-item li {
-  border: 1px solid black;
+  border: 3px solid rgb(238, 9, 9);
   list-style: none;
   padding: 15px;
   margin-left: -40px;
+  text-align: center;
 }
 
 .head-new {
-  border: 1px solid black;
+  border: 3px solid rgb(10, 221, 55);
   padding: 10px;
   margin-top: -10px;
 }
@@ -64,8 +70,88 @@
 .headn li {
   list-style: none;
   padding: 10px;
+  margin-left: -20px;
 }
 
 .headn h4 {
   font-size: 20px;
+  margin-left: 45px;
+}
+
+.one img {
+  width: 15%;
+  height: 15%;
+  /* display: inline-block; */
+  float: left;
+  margin-top: -12%;
+}
+
+.one img li {
+  display: block;
+  float: right;
+}
+
+.one-sub {
+  font-size: 10px;
+}
+
+/* .list-item img {
+  display: flex;
+} */
+
+.two img {
+  width: 15%;
+  height: 15%;
+  /* display: inline-block; */
+  float: left;
+  margin-top: -12%;
+}
+
+.three img {
+  width: 15%;
+  height: 15%;
+  /* display: inline-block; */
+  float: left;
+  margin-top: -12%;
+}
+
+.four img {
+  width: 15%;
+  height: 15%;
+  /* display: inline-block; */
+  float: left;
+  margin-top: -12%;
+}
+
+.five img {
+  width: 15%;
+  height: 15%;
+  /* display: inline-block; */
+  float: left;
+  margin-top: -12%;
+}
+
+.six img {
+  width: 15%;
+  height: 15%;
+  /* display: inline-block; */
+  float: left;
+  margin-top: -12%;
+}
+
+.add-image img {
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin-top: -15%;
+  margin-left: -30px;
+}
+
+.add-image h4 {
+  text-align: right;
+  padding: 10px;
+}
+
+.two-sub {
+  font-size: 12px;
 }
